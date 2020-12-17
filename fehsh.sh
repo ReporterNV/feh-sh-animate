@@ -18,7 +18,7 @@ elif [ ! -d $GIF_PATH ]; then
 fi
 
 # Get total image count of first argument and offset
-TOTAL_IMG=$((`ls $GIF_PATH | wc -l` - 1))
+TOTAL_IMG=$((`ls $GIF_PATH | wc -l`))
 
 # If 0, exit
 if [ $TOTAL_IMG -eq 0 ]; then
