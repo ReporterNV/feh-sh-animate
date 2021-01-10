@@ -60,6 +60,10 @@ case $SPEED in
 		echo "Very fast animation speed selected"
 		SPEED=0.05
 		;;
+	[Gg][Vv][Ff]ast | [Gg][Vv][Ff])
+		echo "Very fast animation speed selected"
+		SPEED=0.01
+		;;
 	*) # Else, exit
 		echo "Invalid input.  Please enter slow, medium, or fast."
 		echo $ERR_MSG
